@@ -1,6 +1,8 @@
 body {
     padding-top: 20vh;
     /* background-image: url("https://images.pexels.com/photos/7581901/pexels-photo-7581901.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"); */
+    background: rgb(240,130,20);
+    background: linear-gradient(90deg, rgba(240,130,20,1) 13%, rgba(192,195,55,1) 100%); 
 }
 .main {
     display: flex;
