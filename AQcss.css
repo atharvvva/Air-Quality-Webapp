@@ -1,8 +1,6 @@
 body {
     padding-top: 20vh;
     /* background-image: url("https://images.pexels.com/photos/629166/pexels-photo-629166.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"); */
-    background-image: #005C97;  /* fallback for old browsers */
-    background-image: -webkit-linear-gradient(to right, #363795, #005C97);  /* Chrome 10-25, Safari 5.1-6 */
     background-image: linear-gradient(to right, #363795, #005C97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 
