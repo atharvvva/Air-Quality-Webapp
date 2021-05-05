@@ -1,25 +1,7 @@
 body {
     padding-top: 20vh;
     /* background-image: url("https://images.pexels.com/photos/629166/pexels-photo-629166.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"); */
-@-webkit-keyframes color-change-2x {
-  0% {
-    background: #19dcea;
-  }
-  100% {
-    background: #b22cff;
-  }
-}
-@keyframes color-change-2x {
-  0% {
-    background: #19dcea;
-  }
-  100% {
-    background: #b22cff;
-  }
-}
-
-
-
+	
 }
 
 .color-change-2x {
