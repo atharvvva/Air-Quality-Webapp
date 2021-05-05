@@ -1,7 +1,8 @@
 body {
     padding-top: 20vh;
     /* background-image: url("https://images.pexels.com/photos/629166/pexels-photo-629166.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"); */
-    background-image: linear-gradient(to right, #363795, #005C97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: #8BC6EC;
+    background-image: linear-gradient(90deg, #8BC6EC 1%, #9599E2 100%);
 
 
 }
