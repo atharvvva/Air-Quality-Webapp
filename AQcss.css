@@ -58,9 +58,9 @@ body {
     font-weight: bolder;
 }
 @font-face {
-    font-family: "Product Sans";
-    src: local("Open Sans"), local("OpenSans"),
-        url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2)
+    font-family: 'Krona One', sans-serif;
+    src: local("Krona One"), local("Krona One"),
+        url(https://fonts.googleapis.com/css2?family=Krona+One)
             format("woff2");
 }
 p.city {
