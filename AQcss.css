@@ -67,7 +67,8 @@ p.aqiImpact {
 .moderate {
     padding: 10px 0px;
     border-radius: 15px;
-    background-color: #fcbf49;
+    background: rgb(219,131,43);
+    background: linear-gradient(90deg, rgba(219,131,43,1) 0%, rgba(249,255,11,1) 100%, rgba(0,212,255,1) 100%); 
     color: #ffffff;
     margin: 10px 0px;
 }
