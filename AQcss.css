@@ -91,7 +91,7 @@ p.aqiImpact {
     padding: 10px 0px;
     border-radius: 15px;
     background: rgb(240,130,20);
-    background: linear-gradient(90deg, rgba(240,130,20,1) 13%, rgba(252,255,136,1) 100%); 
+    background: linear-gradient(90deg, rgba(240,130,20,1) 76%, rgba(252,255,136,1) 95%); 
     color: #ffffff;
     margin: 10px 0px;
 }
