@@ -70,8 +70,8 @@ p.aqiImpact {
 .good {
     padding: 10px 0px;
     border-radius: 15px;
-    background: rgb(144,190,109);
-    background: linear-gradient(148deg, rgba(144,190,109,1) 68%, rgba(255,191,105,1) 98%); 
+    background: rgb(64,145,108);
+    background: linear-gradient(38deg, rgba(64,145,108,1) 100%, rgba(246,189,96,1) 100%); 
     color: #ffffff;
     margin: 10px 0px;
 }
