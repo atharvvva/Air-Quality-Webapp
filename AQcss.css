@@ -1,7 +1,9 @@
 body {
     padding-top: 20vh;
     /* background-image: url("https://images.pexels.com/photos/629166/pexels-photo-629166.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"); */
-	background-color: #fec89a;
+
+	 background: rgb(254,200,154);
+         background: linear-gradient(38deg, rgba(254,200,154,1) 0%, rgba(254,197,187,1) 100%); 
 
 }
 
