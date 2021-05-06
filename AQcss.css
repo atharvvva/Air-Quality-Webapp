@@ -97,7 +97,8 @@ p.aqiImpact {
 }
 
 .unhealthy-sentitive {
-    background-color: #f57e20;
+    background: rgb(230,57,70);
+    background: linear-gradient(148deg, rgba(230,57,70,1) 38%, rgba(238,108,77,1) 100%); 
     color: #ffffff;
     padding: 10px 0px;
     border-radius: 15px;
