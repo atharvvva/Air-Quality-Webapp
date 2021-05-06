@@ -90,8 +90,8 @@ p.aqiImpact {
 .moderate {
     padding: 10px 0px;
     border-radius: 15px;
-    background: rgb(240,130,20);
-    background: linear-gradient(90deg, rgba(240,130,20,1) 76%, rgba(252,255,136,1) 95%); 
+    background: rgb(238,108,77);
+    background: linear-gradient(90deg, rgba(238,108,77,1) 76%, rgba(255,191,105,1) 97%);  
     color: #ffffff;
     margin: 10px 0px;
 }
