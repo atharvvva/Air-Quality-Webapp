@@ -1,9 +1,7 @@
 body {
     padding-top: 40px;	
 	
-background: rgb(192,130,103);
-background: linear-gradient(38deg, rgba(192,130,103,1) 100%, rgba(254,197,187,1) 100%); 
-	
+ background-image: url("https://unsplash.com/photos/hDyO6rr3kqk");
 }
 
 
