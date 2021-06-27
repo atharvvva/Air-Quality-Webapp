@@ -12,8 +12,26 @@
             integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
             crossorigin="anonymous"
         />
-        <title>AirIQ</title>
+        <title>AirIQ</title>0
     </head>
+    
+    <style>
+div.container {
+background-color: #ffffff;
+}
+div.container p {
+text-align: left;
+font-family: Helvetica;
+font-size: 12px;
+font-style: normal;
+font-weight: normal;
+text-decoration: none;
+text-transform: none;
+color: #ffffff;
+background-color: #ffffff;
+}
+</style>
+    
     <script src="./AQ.js" type="module">
         try {
             getdata();
@@ -37,7 +55,9 @@
             <hr>
             <br />
             <h4> &diams; What Is Air Quality Index ? </h4>
-            <p>&rarr; Air Quality Index is a scale designed to communicate the current air quality status to the people in readily comprehensible terms. It converts the complex air quality data of different pollutants/contaminants into a numerical value (index value), terminology and colour.</p>
+            <div class="container">
+<p>Air Quality Index is a scale designed to communicate the current air quality status to the people in readily comprehensible terms. It converts the complex air quality data of different pollutants/contaminants into a numerical value (index value), terminology and colour.</p>
+</div>
             <br />
             <h6> &diams; Want To Check The Air Quality Near You Or Any Other City ? Type The City Below </h6>
             <!-- <div class="search">
