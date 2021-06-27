@@ -1,8 +1,9 @@
 body {
-    padding-top: 40px;
+    padding-top: 40px;	
 	
-background-color: #c08267;
-
+background: rgb(192,130,103);
+background: linear-gradient(38deg, rgba(192,130,103,1) 100%, rgba(254,197,187,1) 100%); 
+	
 }
 
 
