@@ -1,128 +1,143 @@
 body {
-    padding-top: 40px;	
-	
-background: rgb(63,88,67);
-background: linear-gradient(38deg, rgba(63,88,67,1) 100%, rgba(254,197,187,1) 100%); 
-	
+  padding-top: 40px;
+
+  background: rgb(63, 88, 67);
+  background: linear-gradient(
+    38deg,
+    rgba(63, 88, 67, 1) 100%,
+    rgba(254, 197, 187, 1) 100%
+  );
 }
 
-
-*{
-	font-family: 'Krona One', sans-serif;
+* {
+  font-family: "Krona One", sans-serif;
 }
 
-
+.text {
+  color: black;
 }
 
 .main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .search {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 #content {
-    display: grid;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 2em;
+  display: grid;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
 }
 .header {
-    align-items: center;
-    padding-left: 5em;
-    padding-right: 5em;
+  align-items: center;
+  padding-left: 5em;
+  padding-right: 5em;
 }
 .cont {
-    align-items: center;
-    padding-left: 5em;
-    padding-right: 5em;
+  align-items: center;
+  padding-left: 5em;
+  padding-right: 5em;
 }
 
 .cont p {
-    line-height: 1em;
-    font-weight: 400;
+  line-height: 1em;
+  font-weight: 400;
 }
 .aqi_index {
-    font-size: 4em;
-    font-weight: bolder;
+  font-size: 4em;
+  font-weight: bolder;
 }
 @font-face {
-    font-family: 'Krona One', sans-serif;
-    src: local("Krona One"), local("Krona One"),
-        url(https://fonts.googleapis.com/css2?family=Krona+One&display=swap)
-            format("woff2");
+  font-family: "Krona One", sans-serif;
+  src: local("Krona One"), local("Krona One"),
+    url(https://fonts.googleapis.com/css2?family=Krona+One&display=swap)
+      format("woff2");
 }
 p.city {
-    font-size: 18px;
-    font-weight: bolder;
+  font-size: 18px;
+  font-weight: bolder;
 }
 p.aqiImpact {
-    font-size: 2em;
-    font-weight: bold;
-    align-items: center;
+  font-size: 2em;
+  font-weight: bold;
+  align-items: center;
 }
 .good {
-    padding: 10px 0px;
-    border-radius: 15px;
-    background: rgb(64,145,108);
-    background: linear-gradient(38deg, rgba(64,145,108,1) 100%, rgba(246,189,96,1) 100%); 
-    color: #ffffff;
-    margin: 10px 0px;
+  padding: 10px 0px;
+  border-radius: 15px;
+  background: rgb(64, 145, 108);
+  background: linear-gradient(
+    38deg,
+    rgba(64, 145, 108, 1) 100%,
+    rgba(246, 189, 96, 1) 100%
+  );
+  color: #ffffff;
+  margin: 10px 0px;
 }
 
 .moderate {
-    padding: 10px 0px;
-    border-radius: 15px;
-    background: rgb(238,108,77);
-    background: linear-gradient(38deg, rgba(238,108,77,1) 100%, rgba(246,189,96,1) 100%);   
-    color: #ffffff;
-    margin: 10px 0px;
+  padding: 10px 0px;
+  border-radius: 15px;
+  background: rgb(238, 108, 77);
+  background: linear-gradient(
+    38deg,
+    rgba(238, 108, 77, 1) 100%,
+    rgba(246, 189, 96, 1) 100%
+  );
+  color: #ffffff;
+  margin: 10px 0px;
 }
 
 .unhealthy-sentitive {
-    background: rgb(230,57,70);
-    background: linear-gradient(148deg, rgba(230,57,70,1) 38%, rgba(238,108,77,1) 100%); 
-    color: #ffffff;
-    padding: 10px 0px;
-    border-radius: 15px;
-    margin: 10px 0px;
+  background: rgb(230, 57, 70);
+  background: linear-gradient(
+    148deg,
+    rgba(230, 57, 70, 1) 38%,
+    rgba(238, 108, 77, 1) 100%
+  );
+  color: #ffffff;
+  padding: 10px 0px;
+  border-radius: 15px;
+  margin: 10px 0px;
 }
 
 .unhealthy {
-    padding: 10px 0px;
-    background-color: #ed1d24;
-    color: #ffffff;
-    border-radius: 15px;
-    margin: 10px 0px;
+  padding: 10px 0px;
+  background-color: #ed1d24;
+  color: #ffffff;
+  border-radius: 15px;
+  margin: 10px 0px;
 }
 
 .very-unhealthy {
-    padding: 10px 0px;
-    border-radius: 15px;
-    background-color: #7e2b7d;
-    color: #ffffff;
-    margin: 10px 0px;
+  padding: 10px 0px;
+  border-radius: 15px;
+  background-color: #7e2b7d;
+  color: #ffffff;
+  margin: 10px 0px;
 }
 
 .hazardous {
-    padding: 10px 0px;
-    border-radius: 15px;
-    background-color: #480d27;
-    color: #ffffff;
-    margin: 10px 0px;
+  padding: 10px 0px;
+  border-radius: 15px;
+  background-color: #480d27;
+  color: #ffffff;
+  margin: 10px 0px;
 }
 
 .unknown {
-    padding: 10px 0px;
-    border-radius: 15px;
-    background-color: #ebebeb;
-    color: #000000;
-    margin: 10px 0px;
+  padding: 10px 0px;
+  border-radius: 15px;
+  background-color: #ebebeb;
+  color: #000000;
+  margin: 10px 0px;
 }

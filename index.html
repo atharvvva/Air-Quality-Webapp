@@ -1,109 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="AQcss.css" />
-        <link
-            rel="stylesheet"
-            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-            crossorigin="anonymous"
-        />
-        <title>AirIQ</title>0
-    </head>
-    
-    <style>
-div.container {
-background-color: #ffffff;
-}
-div.container p {
-text-align: left;
-font-family: Helvetica;
-font-size: 12px;
-font-style: normal;
-font-weight: normal;
-text-decoration: none;
-text-transform: none;
-color: #ffffff;
-background-color: #ffffff;
-}
-</style>
-    
-    <script src="./AQ.js" type="module">
-        try {
-            getdata();
-        }
-        catch (error) {
-            console.log(error);
-        }
-        finally {
-            getdata();
-        }
-    </script>
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js" integrity="sha256-qM7QTJSlvtPSxVRjVWNM2OfTAz/3k5ovHOKmKXuYMO4=" crossorigin="anonymous"></script>
-
-    <body>
-
-               
-        <div class="main container">
-            <h1 style="text-align:center;">Air Quality Index Checker</h1>
-            <hr>
-            <hr>
-            <br />
-            <h4> &diams; What Is Air Quality Index ? </h4>
-            <div class="container">
-<p>Air Quality Index is a scale designed to communicate the current air quality status to the people in readily comprehensible terms. It converts the complex air quality data of different pollutants/contaminants into a numerical value (index value), terminology and colour.</p>
-</div>
-            <br />
-            <h6> &diams; Want To Check The Air Quality Near You Or Any Other City ? Type The City Below </h6>
-            <!-- <div class="search">
-                <input
-                    type="search"
-                    id="getInput"
-                    value=""
-                    class="form-control py-2"
-                    placeholder="Search City"
-                    aria-label="Search City"
-                    aria-describedby="basic-addon1"
-                />
-                <div class="input-group-append">
-                    <button
-                        id="btn2"
-                        class="btn btn-outline-primary"
-                        type="button"
-                    >
-                        <i class="medium material-icons">search</i>
-                    </button>
-                </div>
-            </div> -->
-            <div class="input-group mb-3 w-50">
-                <input
-                    id="getInput"
-                    type="search"
-                    class="form-control"
-                    placeholder="Search your city"
-                    aria-label="Search your city"
-                    aria-describedby="basic-addon2"
-                />
-                <div class="input-group-append">
-                    <button
-                        class="btn btn-outline-primary"
-                        type="button"
-                        name="btn2"
-                        id="btn2"
-                    >
-                        Search
-                    </button>
-                </div>
-            </div> <h6> OR </h6>
-            <button id="btn1" class="btn btn-outline-primary">
-                Get Air Qualtiy Index Using Geolocation
-            </button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AirIQ</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="title">Air Quality Index Checker</div>
+      </header>
+      <main>
+        <div class="info">
+          <div class="info-main">
+            Air Quality Index is a scale designed to communicate the current air
+            quality status to the people in readily comprehensible terms. It
+            converts the complex air quality data of different
+            pollutants/contaminants into a numerical value (index value),
+            terminology and colour.
+          </div>
+          <div class="info-img">
+            <img src="vector.svg" alt="Vector" />
+          </div>
+        </div>
+        <div class="checker">
+          <h2>
+            Want To Check The Air Quality Near You Or Any Other City? Type The
+            City Below
+          </h2>
+          <div class="search-by-city">
+            <input
+              type="text"
+              class="city"
+              placeholder="Enter city name"
+              id="getInput"
+            />
+            <input type="button" class="search" id="btn2" value="Search" />
+          </div>
         </div>
         <div id="content"></div>
-    </body>
+      </main>
+    </div>
+    <script src="AQsearch.js" type="module"></script>
+  </body>
 </html>
