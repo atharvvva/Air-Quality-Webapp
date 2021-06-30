@@ -1,6 +1,6 @@
 html {
   margin: 0;
-  padding: 0;
+  padding: 0px;
   width: 100%;
   font-family: "Inter", sans-serif;
   /* height: 100vh; */
@@ -8,72 +8,129 @@ html {
 
 body {
   height: 100%;
-  background-image: linear-gradient(to right, #c2e59c, #64b3f4);
+  background: rgb(43, 75, 130);
+  background: linear-gradient(
+    90deg,
+    rgba(43, 75, 130, 1) 100%,
+    rgba(243, 196, 251, 1) 100%
+  );
   background-repeat: no-repeat;
 }
 
 header {
-  padding: 8px;
-  font-size: 32px;
-  font-weight: 700;
+  padding: 1px;
+  font-size: 30px;
+  font-weight: 600;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  font-family: "Josefin Sans";
+}
+
+li{
+margin: 20px;
+}
+
+
+.indexnow {
+  margin: 20px;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top > p {
+  font: inherit;
+  margin: 0;
+  font-size: 25px;
+  color: #f0abc1;
 }
 
 .title {
-  padding: 24px;
+  color: #f0abc1;
+  padding: 60px;
+  font-family: "Josefin Sans";
 }
 
 .info {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding: 10px;
+  padding: 20px;
 }
 
 .info-main {
+  font-family: "Josefin Sans";
+  
   max-width: 50%;
-  font-size: 20px;
+  color: #94ddde;
+  font-size: 23px;
   align-self: center;
 }
 
 .info-img {
+  max-width: 100%;
+}
+
+.info-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.info-main-2 {
+  font-family: "Josefin Sans";
   max-width: 50%;
+  color: #94ddde;
+  font-size: 23px;
+  align-self: center;
+}
+
+.info-img-2 {
+  max-width: 100%;
 }
 
 img {
-  height: 300px;
+  height: 380px;
 }
 
 .checker {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding: 10px;
+  padding: 60px;
   margin: 10px;
+  font-family: "Josefin Sans";
+  color: #f0abc1;
 }
 
 .city {
-  font: inherit;
+  font-family: "Josefin Sans";
+  color: white;
+  font-size: 18px;
   outline: 0;
   background-color: transparent;
   border: 0;
   border-bottom: 2px solid gray;
   padding: 5px;
   margin: 5px;
+  width: 500px;
 }
 
 .city:focus {
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid #f0abc1;
 }
 
 .city:focus::placeholder {
-  color: black;
+  color: #fefefe;
 }
 
 .city::placeholder {
-  color: gray;
+  color: #94ddde;
 }
 
 .checker {
@@ -84,21 +141,32 @@ img {
 
 .search-by-city {
   display: flex;
+  font-family: "Josefin Sans";
   flex-direction: row;
   justify-content: space-between;
 }
 
-.city {
-  width: 300px;
-}
-
 .search {
+  color: rgb(43, 75, 130);
+  background-color: #f0abc1;
   margin: 5px;
   border-radius: 5px;
   height: 40px;
   width: 100px;
   border: 0px;
-  font: inherit;
+  font-family: "Josefin Sans";
+  cursor: pointer;
+}
+
+.search:hover {
+  background-color: #94ddde;
+  color: rgb(43, 75, 130);
+  margin: 5px;
+  border-radius: 5px;
+  height: 40px;
+  width: 100px;
+  border: 0px;
+  font-family: "Josefin Sans";
   cursor: pointer;
 }
 
@@ -120,6 +188,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: "Josefin Sans";
 }
 
 .moderate {
@@ -132,6 +201,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: "Josefin Sans";
 }
 
 .unhealthy-sentitive {
@@ -144,11 +214,12 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: "Josefin Sans";
 }
 
 .unhealthy {
   max-width: 480px;
-  background-color: #ed1d24;
+  background-color: #f44336;
   color: #ffffff;
   border-radius: 15px;
   padding: 10px;
@@ -156,6 +227,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: "Josefin Sans";
 }
 
 .very-unhealthy {
@@ -168,6 +240,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: "Josefin Sans";
 }
 
 .hazardous {
@@ -180,6 +253,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: "Josefin Sans";
 }
 
 .unknown {
@@ -192,6 +266,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: "Josefin Sans";
 }
 
 .aqi_index {
