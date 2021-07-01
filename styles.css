@@ -27,10 +27,50 @@ header {
   font-family: "Josefin Sans";
 }
 
-li{
-margin: 20px;
+/* Style the navigation bar */
+.navbar {
+  /* width: 100%; */
+  /* background-color: #555; */
+  overflow: auto;
 }
 
+/* Navbar links */
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: #94ddde;
+  color: rgb(43, 75, 130);
+}
+
+/* Current/active navbar link */
+.active {
+  color: rgb(43, 75, 130);
+  background-color: #f0abc1;
+}
+
+.active > i {
+  color: rgb(43, 75, 130);
+}
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+li {
+  margin: 20px;
+}
 
 .indexnow {
   margin: 20px;
@@ -64,7 +104,7 @@ margin: 20px;
 
 .info-main {
   font-family: "Josefin Sans";
-  
+
   max-width: 50%;
   color: #94ddde;
   font-size: 23px;
