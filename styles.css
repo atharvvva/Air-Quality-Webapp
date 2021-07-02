@@ -73,6 +73,7 @@ li {
 }
 
 .indexnow {
+  font-size: 70px;
   margin: 20px;
 }
 
@@ -91,6 +92,7 @@ li {
 
 .title {
   color: #f0abc1;
+  
   padding: 60px;
   font-family: "Josefin Sans";
 }
@@ -107,7 +109,7 @@ li {
 
   max-width: 50%;
   color: #94ddde;
-  font-size: 23px;
+  font-size: 22px;
   align-self: center;
 }
 
